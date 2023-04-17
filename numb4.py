@@ -8,4 +8,4 @@ def watermark_photo(input_image_path, output_image_path, watermark_image_path, p
     image.paste(watermark, position)
     image.show()
     image.save('watermark/' + str(img))
-    watermark_with_photo(img, 'dogeyes_watermarked2.JPG', 'watermark.png', position=(0,0))
+    watermark_with_photo(img, 'dogeyes_watermarked2.JPG', 'watermark.JPG', position=(0,0))
